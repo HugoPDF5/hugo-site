@@ -10,14 +10,14 @@ export const Sidebar = () => {
             h='100vh'
             bgColor='#161a1b'
         >
-            <Box w='100%' mt='16' align='center'>
+            <Box w='100%' mt='8' align='center'>
                 <Image src='react-icon.png' />
                 <Text fontFamily='Open Sans' fontWeight='semibold' mt='4' fontSize={'4xl'} color='#0befda'> Bem vindo ao meu portfólio </Text>
             </Box>
 
-            <VStack spacing='12' align='stretch' mt='32'>
+            <VStack spacing='12' align='stretch' mt='16'>
                 <NavLink href='/' icon={BsFillHouseFill}> Home </NavLink>
-                <NavLink href='/home3' icon={BsFillPersonFill}> Sobre </NavLink>
+                <NavLink href='/about' icon={BsFillPersonFill}> Sobre </NavLink>
                 <NavLink href='/home4' icon={BsListStars}> Experiência </NavLink>
                 <NavLink href='/home5' icon={BsFillChatFill}> Contato </NavLink>
             </VStack>
