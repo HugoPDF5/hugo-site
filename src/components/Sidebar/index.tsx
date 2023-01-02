@@ -1,4 +1,4 @@
-import { Flex, Box, Text, VStack, Image } from '@chakra-ui/react'
+import { Box, Text, VStack, Image } from '@chakra-ui/react'
 import { BsFillPersonFill, BsFillHouseFill, BsListStars, BsFillChatFill } from 'react-icons/bs'
 import { NavLink } from './NavLink';
 
@@ -18,8 +18,8 @@ export const Sidebar = () => {
             <VStack spacing='12' align='stretch' mt='16'>
                 <NavLink href='/' icon={BsFillHouseFill}> Home </NavLink>
                 <NavLink href='/about' icon={BsFillPersonFill}> Sobre </NavLink>
-                <NavLink href='/home4' icon={BsListStars}> Experiência </NavLink>
-                <NavLink href='/home5' icon={BsFillChatFill}> Contato </NavLink>
+                <NavLink href='/experiences' icon={BsListStars}> Experiência </NavLink>
+                <NavLink href='/contact' icon={BsFillChatFill}> Contato </NavLink>
             </VStack>
         </Box>
     )

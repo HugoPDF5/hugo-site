@@ -1,5 +1,5 @@
-import { Box, Flex, Icon, Text, Link, Divider } from "@chakra-ui/react";
-import { ElementType, useState } from "react";
+import { Flex, Icon, Text, Link, Divider } from "@chakra-ui/react";
+import { ElementType } from "react";
 import { NavLink as RouterLink } from "react-router-dom";
 
 interface NavLinkProps {
