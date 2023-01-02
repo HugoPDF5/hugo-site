@@ -3,7 +3,7 @@ import { Sidebar } from '../Sidebar'
 import { IoIosArrowDropdown, IoIosArrowDropup } from 'react-icons/io'
 import { useState } from 'react'
 
-const Experience = () => {
+export const Experience = () => {
     const [showLeadInfo, setShowLeadInfo] = useState(false)
     const handleToggleLead = () => setShowLeadInfo(!showLeadInfo)
 
@@ -14,9 +14,9 @@ const Experience = () => {
     const handleInitiation = () => setShowInitiation(!showInitiation)
 
     return (
-        <Flex bg='#000' overflow='hidden' w='100%'>
+        <Flex bg='#000' overflow='hidden'>
             <Sidebar />
-            <Flex justify='space-evenly' m='auto' >
+            <Flex flex='1' justify='space-evenly' h='100%' m='auto'>
                 <Card
                     maxW='md'
                     overflow='hidden'
@@ -154,5 +154,3 @@ const Experience = () => {
         </Flex>
     )
 }
-
-export default Experience
