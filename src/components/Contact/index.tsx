@@ -12,10 +12,10 @@ export const Contact = () => {
                 <Sidebar />
                 <Flex flex='1' direction='column'>
                     <Box h='20%' w='100%'>
-                        <Heading mt={["4","8","16",'36']} textAlign='center' fontFamily='Open Sans' fontWeight='bold' fontSize={["sm", "xl", "2xl", "4xl"]} color='#0befda'>Entre em contato comigo:</Heading>
+                        <Heading mt={["16","20","24",'36']} textAlign='center' fontFamily='Open Sans' fontWeight='bold' fontSize={["sm", "xl", "2xl", "4xl"]} color='#0befda'>Entre em contato comigo:</Heading>
                     </Box>
                     <Flex flex='1' >
-                        <Flex color='white' gap='16' w='100%' mt='8' align='center' justify='space-evenly' direction={['column', 'column' ,'row', 'row']}>
+                        <Flex color='white' gap='16' w='100%' mt={["4","6","8",'12']} align='center' justify='space-evenly' direction={['column', 'column' ,'row', 'row']}>
                             <Flex direction='column' align='center' gap='4'>
                                 <Icon as={MdOutlineLocalPhone} boxSize={['6','8','12','16']} color='#0BEFFF' />
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='bold'>Telefone</Text>
