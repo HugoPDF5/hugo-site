@@ -11,10 +11,10 @@ export const Home = () => {
                 <Image mt={['4', '4','2',]} ml={["0","0","4",'8']} borderRadius='full' src='profile.jpeg' boxSize={["50px", "75px", "150px", '300px']} alt='Foto de Hugo Patrício' />
                 <Flex direction='column' gap='8' ml='4' flex='1' align={['center','center', 'center','flex-start']} justify='center' >
                     <Box display='flex' gap='2' fontFamily='Open Sans, sans-serif' fontSize={["sm", "md", "lg", "2xl"]} fontWeight='bold'>
-                        <Text display='flex' color='white' >Olá, meu nome é<Box mx='2' color='#0befda'>Hugo</Box> </Text>
+                        <Text display='flex' color='white' >Olá, meu nome é<Box mx='2' color='#0BEFFF'>Hugo</Box> </Text>
                     </Box>
                     <Box fontFamily='Open Sans, sans-serif' fontSize={["sm", "md", "lg", "2xl"]} fontWeight='bold'>
-                        <Text color='#0befda'>Desenvolvedor Front-End</Text>
+                        <Text color='#0BEFFF'>Desenvolvedor Front-End</Text>
                     </Box>
                     <Box fontFamily='Open Sans, sans-serif' fontSize={["sm", "md", "lg", "2xl"]}>
                         <Text color='white'>Sou um desenvolvedor de software com experiência em React e Typescript.</Text>

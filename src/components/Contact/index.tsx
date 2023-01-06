@@ -17,24 +17,24 @@ export const Contact = () => {
                     <Flex flex='1' >
                         <Flex color='white' gap='16' w='100%' mt='8' align='center' justify='space-evenly' direction={['column', 'column' ,'row', 'row']}>
                             <Flex direction='column' align='center' gap='4'>
-                                <Icon as={MdOutlineLocalPhone} boxSize={['6','8','12','16']} color='#0befda' />
+                                <Icon as={MdOutlineLocalPhone} boxSize={['6','8','12','16']} color='#0BEFFF' />
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='bold'>Telefone</Text>
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='semibold'>(88) 99339-5916</Text>
                             </Flex>
                             <Flex direction='column' align='center' gap='4' >
-                                <Icon as={MdOutlineLocalPostOffice} boxSize={['6','8','12','16']} color='#0befda' />
+                                <Icon as={MdOutlineLocalPostOffice} boxSize={['6','8','12','16']} color='#0BEFFF' />
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='bold'>Email</Text>
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='semibold'>hugopatricio51@gmail.com</Text>
                             </Flex>
                             <Flex direction='column' align='center' gap='4' >
-                                <Icon as={AiFillGithub} boxSize={['6','8','12','16']} color='#0befda' />
+                                <Icon as={AiFillGithub} boxSize={['6','8','12','16']} color='#0BEFFF' />
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='bold'>GitHub</Text>
                                 <Link href='https://github.com/HugoPDF5' isExternal >
                                     <Text fontFamily='Poppins, sans-serif' fontWeight='semibold'>HugoPDF5 <ExternalLinkIcon mx='2px'/></Text>
                                 </Link>
                             </Flex>
                             <Flex direction='column' align='center' gap='4' >
-                                <Icon as={AiFillLinkedin} boxSize={['6','8','12','16']} color='#0befda' />
+                                <Icon as={AiFillLinkedin} boxSize={['6','8','12','16']} color='#0BEFFF' />
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='bold'>Linkedin</Text>
                                 <Link href='https://github.com/HugoPDF5' isExternal >
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='semibold'>Hugo Patrício <ExternalLinkIcon mx='2px'/></Text>

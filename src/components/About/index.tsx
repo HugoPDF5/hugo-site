@@ -7,7 +7,7 @@ export const About = () => {
             <Sidebar />
             <SimpleGrid flex='1' gap='4' minChildWidth='320px' alignItems='flex-start' m='auto 0'>
                 <Box padding={["6", "8"]} borderRadius='8' pb='4' bg='#101213' h='100%' ml='4'>
-                    <Text fontWeight='extrabold' fontSize={["sm", "md", "lg", "2xl"]} mb='4' color='#0befda' align='center' fontFamily='Open Sans, sans-serif'>
+                    <Text fontWeight='extrabold' fontSize={["sm", "md", "lg", "2xl"]} mb='4' color='#0BEFFF' align='center' fontFamily='Open Sans, sans-serif'>
                         Sobre
                     </Text>
 
@@ -18,7 +18,7 @@ export const About = () => {
                 </Box>
 
                 <Box padding={["6", "8"]} borderRadius='8' pb='4' bg='#101213' h='100%' ml='4' mr='4' m='auto 0'>
-                    <Text fontWeight='extrabold' fontSize={["sm", "md", "lg", "2xl"]} mb='12' color='#0befda' align='center' fontFamily='Open Sans, sans-serif'>
+                    <Text fontWeight='extrabold' fontSize={["sm", "md", "lg", "2xl"]} mb='12' color='#0BEFFF' align='center' fontFamily='Open Sans, sans-serif'>
                         Habilidades
                     </Text>
 

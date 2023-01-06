@@ -12,7 +12,7 @@ export const Sidebar = () => {
         >
             <Box mt='8' align='center' >
                 <Image src='react-icon.png' />
-                <Text fontFamily='Open Sans' fontWeight='semibold' mt='4' fontSize={["1xl", "2xl", "2xl", "4xl"]} color='#0befda'> Bem vindo ao meu portfólio </Text>
+                <Text fontFamily='Open Sans' fontWeight='semibold' mt='4' fontSize={["1xl", "2xl", "2xl", "4xl"]} color='#0BEFFF'> Bem vindo ao meu portfólio </Text>
             </Box>
 
             <VStack spacing='12' align='stretch' mt='16'>
