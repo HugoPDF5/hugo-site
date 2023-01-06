@@ -6,13 +6,13 @@ export const Sidebar = () => {
     return (
         <Box
             as='aside'
-            w='96'
-            h='100vh'
+            w={['36','48','60','96']}
             bgColor='#161a1b'
+            h='100vh'
         >
-            <Box w='100%' mt='8' align='center'>
+            <Box mt='8' align='center' >
                 <Image src='react-icon.png' />
-                <Text fontFamily='Open Sans' fontWeight='semibold' mt='4' fontSize={'4xl'} color='#0befda'> Bem vindo ao meu portfólio </Text>
+                <Text fontFamily='Open Sans' fontWeight='semibold' mt='4' fontSize={["1xl", "2xl", "2xl", "4xl"]} color='#0befda'> Bem vindo ao meu portfólio </Text>
             </Box>
 
             <VStack spacing='12' align='stretch' mt='16'>
