@@ -3,7 +3,7 @@ import { Sidebar } from '../Sidebar'
 
 export const About = () => {
     return (
-        <Flex bg='#000' h='100vh'>
+        <Flex bg='#000' h='100vh' overflow='hidden'>
             <Sidebar />
             <SimpleGrid flex='1' gap='4' minChildWidth='320px' alignItems='flex-start' m='auto 0'>
                 <Box padding={["6", "8"]} borderRadius='8' pb='4' bg='#101213' h='100%'  mx='4'>
