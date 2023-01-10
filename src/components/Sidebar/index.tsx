@@ -12,10 +12,10 @@ export const Sidebar = () => {
         >
             <Box mt='8' align='center' >
                 <Image src='react-icon.png' />
-                <Text fontFamily='Open Sans' fontWeight='semibold' mt='4' fontSize={["1xl", "2xl", "2xl", "4xl"]} color='#0BEFFF'> Bem vindo ao meu portfólio </Text>
+                <Text fontFamily='Open Sans, sans-serif' fontWeight='semibold' mt='4' fontSize={["1xl", "2xl", "2xl", "4xl"]} color='#0BEFFF'> Bem vindo ao meu portfólio </Text>
             </Box>
 
-            <VStack spacing='12' align='stretch' mt='16'>
+            <VStack fontFamily='Open Sans, sans-serif' spacing='12' align='stretch' mt='16'>
                 <NavLink href='/' icon={BsFillHouseFill}> Home </NavLink>
                 <NavLink href='/about' icon={BsFillPersonFill}> Sobre </NavLink>
                 <NavLink href='/experiences' icon={BsListStars}> Experiência </NavLink>

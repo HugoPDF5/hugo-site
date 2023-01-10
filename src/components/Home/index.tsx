@@ -5,7 +5,7 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 export const Home = () => {
     return (
-        <Flex h='100vh' overflow='hidden'>
+        <Flex overflow='hidden' >
             <Sidebar />
             <Flex direction={['column','column','column', "row"]} bgColor='#000' flex='1' gap='2' align='center'>
                 <Image mt={['4', '4','2',]} ml={["0","0","4",'8']} borderRadius='full' src='profile.jpeg' boxSize={["50px", "75px", "150px", '300px']} alt='Foto de Hugo Patrício' />
@@ -23,7 +23,7 @@ export const Home = () => {
                         <NavLink to='/about'>
                             <Button size={["sm", "sm","md","lg" ]} mr='4' fontFamily='Poppins, sans-serif' variant="solid" colorScheme='linkedin'> Mais sobre mim </Button>
                         </NavLink>
-                        <Link href='https://resume.io/r/KHmsKFbNF' isExternal>
+                        <Link href='https://resume.io/r/KHmsKFbNF' isExternal _hover={{textDecoration: 'none'}}>
                             <Button size={["sm", "sm","md","lg" ]} mr='4' fontFamily='Poppins, sans-serif' variant="solid" colorScheme='linkedin'> Currículo <ExternalLinkIcon mx='4px' /> </Button>
                         </Link>
                     </Box>

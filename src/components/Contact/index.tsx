@@ -12,7 +12,7 @@ export const Contact = () => {
                 <Sidebar />
                 <Flex flex='1' direction='column'>
                     <Box h='20%' w='100%'>
-                        <Heading mt={["16","20","24",'36']} textAlign='center' fontFamily='Open Sans' fontWeight='bold' fontSize={["sm", "xl", "2xl", "4xl"]} color='#0befda'>Entre em contato comigo:</Heading>
+                        <Heading mt={["16","20","24",'36']} textAlign='center' fontFamily='Open Sans' fontWeight='bold' fontSize={["sm", "xl", "2xl", "4xl"]} color='#0BEFFF'>Entre em contato comigo:</Heading>
                     </Box>
                     <Flex flex='1' >
                         <Flex color='white' gap='16' w='100%' mt={["4","6","8",'12']} align='center' justify='space-evenly' direction={['column', 'column' ,'row', 'row']}>
@@ -29,14 +29,14 @@ export const Contact = () => {
                             <Flex direction='column' align='center' gap='4' >
                                 <Icon as={AiFillGithub} boxSize={['6','8','12','16']} color='#0BEFFF' />
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='bold'>GitHub</Text>
-                                <Link href='https://github.com/HugoPDF5' isExternal >
+                                <Link href='https://github.com/HugoPDF5' isExternal _hover={{textDecoration: 'none'}} >
                                     <Text fontFamily='Poppins, sans-serif' fontWeight='semibold'>HugoPDF5 <ExternalLinkIcon mx='2px'/></Text>
                                 </Link>
                             </Flex>
                             <Flex direction='column' align='center' gap='4' >
                                 <Icon as={AiFillLinkedin} boxSize={['6','8','12','16']} color='#0BEFFF' />
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='bold'>Linkedin</Text>
-                                <Link href='https://github.com/HugoPDF5' isExternal >
+                                <Link href='https://github.com/HugoPDF5' isExternal _hover={{textDecoration: 'none'}} >
                                 <Text fontFamily='Poppins, sans-serif' fontWeight='semibold'>Hugo Patrício <ExternalLinkIcon mx='2px'/></Text>
                                 </Link>
                             </Flex>
