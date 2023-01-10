@@ -16,10 +16,9 @@ export const Experience = () => {
     return (
         <Flex bg='#000' overflow='hidden'>
             <Sidebar />
-            <Flex flex='1' justify='space-evenly' h='100%' m='auto' direction={['column', 'column', 'column', 'row']}>
+            <Flex flex='1' justify='space-between' h='100%' m='auto' direction={['column', 'column', 'column', 'row']}>
                 <Card
-                    maxW='md'
-                    overflow='hidden'
+                    maxW='sm'
                     variant='outline'
                     h='100%'
                     mx='16'
@@ -64,8 +63,7 @@ export const Experience = () => {
                 </Card>
 
                 <Card
-                    maxW='md'
-                    overflow='hidden'
+                    maxW='sm'
                     variant='outline'
                     h='100%'
                     mx='16'
@@ -108,7 +106,7 @@ export const Experience = () => {
                 </Card>
 
                 <Card
-                    maxW='md'
+                    maxW='sm'
                     variant='outline'
                     h='100%'
                     mx='16'
