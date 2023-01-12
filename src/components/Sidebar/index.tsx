@@ -8,7 +8,8 @@ export const Sidebar = () => {
             as='aside'
             w={['36','48','60','96']}
             bgColor='#161a1b'
-            h='100vh'
+            position='fixed'
+            height='100%' 
         >
             <Box mt='8' align='center' >
                 <Image src='react-icon.png' />

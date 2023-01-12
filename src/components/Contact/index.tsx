@@ -7,11 +7,11 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 export const Contact = () => {
     return (
-        <Flex bg='#000' overflow='hidden'>
+        <Flex bg='#000' overflow='hidden' h="100vh">
             <Flex w='100%'>
                 <Sidebar />
-                <Flex flex='1' direction='column'>
-                    <Box h='20%' w='100%'>
+                <Flex flex='1' direction='column' ml={['36','48','60','96']}>
+                    <Box>
                         <Heading mt={["16","20","24",'36']} textAlign='center' fontFamily='Open Sans' fontWeight='bold' fontSize={["sm", "xl", "2xl", "4xl"]} color='#0BEFFF'>Entre em contato comigo:</Heading>
                     </Box>
                     <Flex flex='1' >

@@ -14,15 +14,15 @@ export const Experience = () => {
     const handleInitiation = () => setShowInitiation(!showInitiation)
 
     return (
-        <Flex bg='#000' overflow='hidden'>
+        <Flex bg='#000'>
             <Sidebar />
-            <Flex flex='1' justify='space-between' h='100%' m='auto' direction={['column', 'column', 'column', 'row']}>
+            <Flex flex='1' ml={['36','48','60','96']} justify='space-between' align='center' m='auto' minHeight='100vh' direction={['column', 'column', 'column', 'row']}>
                 <Card
                     maxW='sm'
                     variant='outline'
                     h='100%'
                     mx='16'
-                    mt='16'
+                    my='16'
                     padding='4'
                 >
                     <VStack spacing='4'>
@@ -67,7 +67,7 @@ export const Experience = () => {
                     variant='outline'
                     h='100%'
                     mx='16'
-                    mt='16'
+                    my='16'
                     padding='4'
                 >
                     <VStack spacing='4'>
@@ -110,7 +110,7 @@ export const Experience = () => {
                     variant='outline'
                     h='100%'
                     mx='16'
-                    mt='16'
+                    my='16'
                     padding='4'
                 >
                     <VStack spacing='4'>
@@ -147,7 +147,7 @@ export const Experience = () => {
                         </CardBody>
                     </VStack>
                 </Card>
-            </Flex >
+            </Flex>
         </Flex>
     )
 }
