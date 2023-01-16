@@ -13,7 +13,7 @@ export function NavLink({ href, icon, children }: NavLinkProps) {
         <Link as={RouterLink} to={href}>
             <Flex justify='center' align='center' >
                 <Icon as={icon} fontSize='20' color='white' />
-                <Text ml='4' fontWeight='medium' fontSize={["sm", "md", "md", "xl"]} color='white' _hover={{ fontSize: 26}}>{children}</Text>
+                <Text ml='4' fontWeight='medium' fontSize={["sm", "md", "md", "xl"]} color='white' _hover={{ fontSize: 22}}>{children}</Text>
             </Flex>
             <Divider w='75%' m='.75rem auto' />
         </Link>
