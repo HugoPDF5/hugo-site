@@ -1,4 +1,4 @@
-import { Box, Flex, SimpleGrid, Text, Image } from '@chakra-ui/react'
+import { Box, Flex, SimpleGrid, Text} from '@chakra-ui/react'
 import { Sidebar } from '../Sidebar'
 import PairSkill from './PairSkill'
 

@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Image, Link, Text, VStack } from "@chakra-ui/react"
+import { Box, Button, Flex, Image, Link, Text} from "@chakra-ui/react"
 import { Sidebar } from "../Sidebar"
 import { NavLink } from "react-router-dom";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
