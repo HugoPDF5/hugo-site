@@ -4,9 +4,9 @@ import PairSkill from './PairSkill'
 
 export const About = () => {
     return (
-        <Flex bg='#000' h='100vh'>
+        <Flex bg='#000' minHeight='100vh'>
             <Sidebar />
-            <SimpleGrid ml={['36','48','60','96']} flex='1' gap='4' minChildWidth='320px' alignItems='flex-start' m='auto 0'>
+            <SimpleGrid ml={['36','48','60','96']} minHeight='100%' mt='2' flex='1' gap='4' minChildWidth='175px' alignItems='flex-start' m={["",'auto 0']}>
                 <Box padding={["6", "8"]} borderRadius='8' pb='4' bg='#101213' h='100%'  mx='4'>
                     <Text fontWeight='extrabold' fontSize={["sm", "md", "lg", "2xl"]} mb='4' color='#0BEFFF' align='center' fontFamily='Open Sans, sans-serif'>
                         Sobre
@@ -18,12 +18,12 @@ export const About = () => {
                     </Text>
                 </Box>
 
-                <Box padding={["6", "8"]} borderRadius='8' pb='4' bg='#101213' h='100%'  mx='4'>
+                <Box padding={["6", "8"]} borderRadius='8' pb='4' bg='#101213' h='100%' mx='4'>
                     <Text fontWeight='extrabold' fontSize={["sm", "md", "lg", "2xl"]} mb='12' color='#0BEFFF' align='center' fontFamily='Open Sans, sans-serif'>
                         Habilidades
                     </Text>
 
-                    <Flex gap='8' mt='6' wrap='wrap' justifyContent='space-evenly'>
+                    <Flex gap='16' mt='6' wrap='wrap' justifyContent='space-evenly'>
                         <PairSkill name='Chakra UI' image='react-icon.png' />
                         <PairSkill name='React' image='chakra-ui-icon.png' />
                         <PairSkill name='Typescript' image='typescript-icon.png' />

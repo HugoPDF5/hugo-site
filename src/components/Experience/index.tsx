@@ -14,15 +14,15 @@ export const Experience = () => {
     const handleInitiation = () => setShowInitiation(!showInitiation)
 
     return (
-        <Flex bg='#000'>
+        <Flex bg='#000' overflowX='hidden'>
             <Sidebar />
-            <Flex flex='1' ml={['36','48','60','96']} justify='space-between' align='center' m='auto' minHeight='100vh' direction={['column', 'column', 'column', 'row']}>
+            <Flex flex='1' ml={['36','48','60','96']} justify='space-between' align={["end","end","center",'center']} m={["", 'auto']} minHeight='100vh' direction={['column', 'column', 'column', 'row']}>
                 <Card
                     maxW='sm'
                     variant='outline'
                     h='100%'
-                    mx='16'
-                    my='16'
+                    mx={["4","8","12",'16']}
+                    my={["4","8","12",'16']}
                     padding='4'
                 >
                     <VStack spacing='4'>
@@ -33,8 +33,8 @@ export const Experience = () => {
                             borderRadius='lg'
                         />
                         <CardBody color='white'>
-                            <Heading textAlign='center' size={["sm","sm","md",'md']} mb='2'>Dell Lead - Dev. Front-End</Heading>
-                            <Heading textAlign='center' size={["sm","sm","md",'md']} mb='2'>Maio/2022 - Janeiro/2023</Heading>
+                            <Heading textAlign='center' size={["xs","xs","md",'md']} mb='2'>Dell Lead - Dev. Front-End</Heading>
+                            <Heading textAlign='center' size={["xs","xs","md",'md']} mb='2'>Maio/2022 - Janeiro/2023</Heading>
                             <Button w='100%' onClick={handleToggleLead} bg='transparent' _hover='transparent' _active='transparent'>
                                 <Icon boxSize='8' as={showLeadInfo ? IoIosArrowDropup : IoIosArrowDropdown}> </Icon>
                             </Button>
@@ -66,8 +66,8 @@ export const Experience = () => {
                     maxW='sm'
                     variant='outline'
                     h='100%'
-                    mx='16'
-                    my='16'
+                    mx={["4","8","12",'16']}
+                    my={["4","8","12",'16']}
                     padding='4'
                 >
                     <VStack spacing='4'>
@@ -109,8 +109,8 @@ export const Experience = () => {
                     maxW='sm'
                     variant='outline'
                     h='100%'
-                    mx='16'
-                    my='16'
+                    mx={["4","4","12",'16']}
+                    my={["4","4","12",'16']}
                     padding='4'
                 >
                     <VStack spacing='4'>

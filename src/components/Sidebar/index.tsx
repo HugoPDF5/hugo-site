@@ -12,7 +12,7 @@ export const Sidebar = () => {
             height='100%' 
         >
             <Box mt='8' align='center' >
-                <Image src='react-icon.png' />
+                <Image src='react-icon.png' boxSize={["70px","80px","100px",'100px']} />
                 <Text fontFamily='Open Sans, sans-serif' fontWeight='semibold' mt='4' fontSize={["1xl", "2xl", "2xl", "4xl"]} color='#0BEFFF'> Bem vindo ao meu portfólio </Text>
             </Box>
 

@@ -5,21 +5,21 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 export const Home = () => {
     return (
-        <Flex overflow='hidden'>
+        <Flex>
             <Sidebar />
             <Flex direction={['column','column', "row"]} h='100vh' ml={['36','48','60','96']} bgColor='#000' flex='1' gap='2' justify='space-between' align='center'>
                 <Image mt={["24",'24', '4','2',]} ml={["0","0","4",'8']} borderRadius='full' src='profile.jpeg' boxSize={["100px", "150px", '300px']} alt='Foto de Hugo Patrício' />
                 <Flex direction='column' gap='8' ml='4' flex='1' align={['center','center', 'center','flex-start']} justify='center' >
-                    <Box display='flex' gap='2' fontFamily='Open Sans, sans-serif' fontSize={["sm", "md", "lg", "2xl"]} fontWeight='bold'>
+                    <Box display='flex' gap='2' fontFamily='Open Sans, sans-serif' fontSize={["xs", "md", "lg", "2xl"]} fontWeight='bold'>
                         <Text display='flex' color='white' >Olá, meu nome é<Box mx='2' color='#0BEFFF'>Hugo</Box> </Text>
                     </Box>
-                    <Box fontFamily='Open Sans, sans-serif' fontSize={["sm", "md", "lg", "2xl"]} fontWeight='bold'>
+                    <Box fontFamily='Open Sans, sans-serif' fontSize={["xs", "md", "lg", "2xl"]} fontWeight='bold'>
                         <Text color='#0BEFFF'>Desenvolvedor Front-End</Text>
                     </Box>
-                    <Box fontFamily='Open Sans, sans-serif' fontSize={["sm", "md", "lg", "2xl"]}>
-                        <Text color='white'>Sou um desenvolvedor de software com experiência em React e Typescript.</Text>
+                    <Box fontFamily='Open Sans, sans-serif' fontSize={["xs", "md", "lg", "2xl"]}>
+                        <Text align='center' color='white'>Sou um desenvolvedor de software com experiência em React e Typescript.</Text>
                     </Box>
-                    <Box display='flex'>
+                    <Box display='flex' flexDirection={["column","row"]} gap='1' alignItems='center'>
                         <NavLink to='/about'>
                             <Button size={["sm", "sm","md","lg" ]} mr='4' fontFamily='Poppins, sans-serif' variant="solid" colorScheme='linkedin'> Mais sobre mim </Button>
                         </NavLink>
